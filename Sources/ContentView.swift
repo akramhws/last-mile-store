@@ -47,7 +47,7 @@ struct ContentView: View {
             }
         }
         .searchable(text: $searchText, prompt: "ابحث عن منتج...")
-        .environment(\\.layoutDirection, .rightToLeft)
+        .environment(\.layoutDirection, .rightToLeft)
     }
 }
 
